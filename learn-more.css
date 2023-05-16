@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+:root {
+    --main-font: 'Playfair Display', serif;
+    --main-black: rgb(12, 1, 4);
+    --standard-line-height: 1.6;
+    --main-text-color: rgb(10, 2, 4); 
+    --box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    --main-bg-color: rgb(224, 221, 207);
+}
+
+
+* {
+    background-color: rgb(224, 221, 207);
+    font-family: var(--main-font);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  
+}
+
+header {
+    display: flex;
+    margin: 10px 0 0 1rem;
+    color: var(--main-text-color);
+
+}
+
+header > main > h1 {
+    font-size: 2em;
+    color: var(--main-black);
+    margin: 2vh 0 5vh 0;
+    position: relative;
+    
+}
+
+header > main > h2 {
+    line-height: var(--standard-line-height);
+    font-size: 15px;
+    margin: 0 1rem 0 0;
+    padding: 0;
+    
+  
+}   
+
+
+#lm-landpg-art-1 {
+    max-height: 40vh;
+    min-height: 40vh;
+    float: right;
+    position: relative;
+    bottom: 7vh;
+    width: 100% fit-content;
+    height: 100% fit-content;
+    box-shadow: var(--box-shadow)
+}
+
+
+    
+header > main > h3 {
+    line-height: var(--standard-line-height);
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+    margin-right: 1rem;
+   
+}
+
+
+body {
+    height: 130vh;
+}
+
+.mid-body > h1 {
+    font-size: 1.5em;
+    color: var(--main-black);
+    margin: 6vh 0 0 1rem;
+    display: flex;
+}
+
+#mb-nav-1 {
+    max-height: 30vh;
+    max-width: 70vw;
+    min-height: 40vh;
+    min-width: 70vw;
+    margin: 5vh 0 0 0;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    left: -50px;
+}
+
+#mb-nav-text-1 {
+    position: relative;
+    left: 20vw;
+    bottom: 21vh;
+    background: none;
+    width: 18rem;
+    color: white;
+
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3.5rem;
+    text-align: right;
+    
+
+}
+
+#mb-nav-text-1 > span {
+    background: rgba(49, 12, 22, 0.74);
+    padding: 10px;
+ 
+}
+
+#mb-nav-text-1 > span-2 {
+    background: rgba(10, 2, 4, 0.74);
+    padding: 4px 10px 10px 10px;
+    
+    
+}
+
+#mb-nav-btn-1 {
+    position: relative;
+    bottom: 13vh;
+    left: 20vw;
+    background: rgb(252, 252, 252);
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+
+
+    
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+footer {
+    position: relative;
+    bottom: 1.5rem;
+    display: flex;
+    width: 10em;
+    height: 40px
+}
+
+#lm-ftr-arrow {
+    min-height: 5vh;
+    min-width: 10vw;
+    max-height: 5vh;
+    max-width: 5vw;
+
+    position: relative;
+    margin: 0 0 0 1rem;
+    
+}
+
+footer > nav > p {
+    position: relative;
+    left: 17vw;
+    bottom: 5vh;
+}
