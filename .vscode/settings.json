@@ -1,0 +1,7 @@
+{
+    "dataworkspace.excludedProjects": [
+        "Pick Eve DB/Pick Eve DB.sqlproj",
+        "DB_Pick Eve/DB_Pick Eve.sqlproj"
+    ],
+    "sqltools.connections": []
+}

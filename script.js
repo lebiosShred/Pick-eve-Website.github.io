@@ -17,3 +17,7 @@ function MenuSection() {
     }
     
 }
+
+function GoToBusinesses() {
+    window.location.href = 'Businesses-Page.html';
+}
