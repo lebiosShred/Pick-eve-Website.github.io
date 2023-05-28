@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 :root {
     --main-font: 'Playfair Display', serif;
     --main-black: rgb(12, 1, 4);
@@ -11,12 +12,12 @@
 }
 
 
-
 * {
     background-color: aliceblue;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 
 }
 
@@ -26,31 +27,12 @@ header {
 }
 
 header > nav {
-    display: grid;
+    display: flex;
 }
 
 body {
     height: 130vh;
 
-}
-
-#sm-logo-header {
-    max-height: 100vh;
-    max-width: 30vw;
-
-}
-
-main {
-    position: relative;
-    margin-top: 5px;
-    
-}
-
-
-#landing-page-main-image {
-    min-height: 50vh;
-    max-width: 100vw;
-    
 }
 
 #landing-page-nav-menu {
@@ -61,15 +43,6 @@ main {
     letter-spacing: 2px;
 }
 
-#landing-page-catchphrase {
-    position: relative;
-    bottom: 80vh;
-    background: none;
-    margin-left: 3vw;
-    font-family: var(--main-font);
-    font-size: 2.3rem;
-  
-}
 
 #landing-page-nav-learn-more {
     position: relative;

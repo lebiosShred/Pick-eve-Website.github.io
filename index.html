@@ -11,7 +11,8 @@
 <body>
     <header>
         <nav>
-        <img src="./Logos-icons/Pick-eve-logo-with-background.svg" alt="Pick-eve-logo-image" id="sm-logo-header"/>
+        <img src="./Logos-icons/Pick-eve-logo-with-background.svg" alt="Pick-eve-logo-image" id="sm-logo-header" style="  max-height: 100vh;
+        max-width: 30vw;"/>
         
         <!---- MENU SECTION ---------------------------------------------->
   
@@ -30,10 +31,16 @@
         </ul>
     </section>
 </header>
-    <main>
+    <main style="position: relative;margin-top: 5px;">
         <section class="section-1">
-            <img src="./images/Image-landing-page-women-standing.jpg" alt="women-in-different-color-looking-down" id="landing-page-main-image">
-            <p id="landing-page-catchphrase">"Together we rise: Celebrating <span style="color:rgb(214, 30, 159);background:none;">women-owned</span> businesses."</p>
+            <img src="./images/Image-landing-page-women-standing.jpg" alt="women-in-different-color-looking-down" id="landing-page-main-image" style="min-height: 50vh;
+            max-width: 100vw;">
+            <p style="position: absolute;
+            top: 12;
+            background: none;
+            margin-left: 3vw;
+            font-family: var(--main-font);
+            font-size: 2.3rem;">"Together we rise: Celebrating<span style="color:rgb(214, 30, 159);background:none;"> women-owned</span> businesses."</p>
             <button type="button" id="landing-page-nav-learn-more" onclick="learnMorePage()">Learn more</button>
         </section>
 
